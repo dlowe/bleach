@@ -4,4 +4,4 @@
   :license {:name "Artistic License" :url "http://dev.perl.org/licenses/artistic.html"}
   :eval-in-leiningen true
   :dependencies [[org.clojure/clojure "1.5.1"]]
-  :main "bleach.core")
+  :main bleach.core)

@@ -1,4 +1,4 @@
-(ns bleach.core)
+(ns bleach.core (:gen-class))
 
 (defn whiten
   [shirt]
