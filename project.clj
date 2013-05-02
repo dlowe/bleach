@@ -1,4 +1,4 @@
-(defproject bleach "0.0.4"
+(defproject bleach "0.0.10"
   :description "Whitens unsightly code"
   :url "http://github.com/dlowe/bleach"
   :license {:name "Artistic License" :url "http://dev.perl.org/licenses/artistic.html"}

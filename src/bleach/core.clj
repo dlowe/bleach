@@ -1,6 +1,5 @@
 (ns bleach.core
-  (:require [clojure.string :refer (split-lines)])
-  (:gen-class))
+  (:require [clojure.string :refer (split-lines)]))
 
 (defn bits
   [x & bs]
