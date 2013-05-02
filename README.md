@@ -7,8 +7,8 @@ Whitens unsightly code.
 Add bleach to your project.clj file:
 
 ```clojure
-    :dependencies [[bleach "0.0.10"]]
-    :plugins [[bleach "0.0.10"]]
+    :dependencies [[bleach "0.0.11"]]
+    :plugins [[bleach "0.0.11"]]
 ```
 
 ## Usage
