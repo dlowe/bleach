@@ -1,5 +1,5 @@
 (ns bleach.core
-  (:use [clojure.string])
+  (:require [clojure.string :refer (split-lines)])
   (:gen-class))
 
 (defn bits
@@ -32,4 +32,4 @@
     (read-string)))
 
 (defn -main [file]
-  (spit file (str "(use 'bleach.core) #bleach/ed " (whiten (slurp file)))))
+  (spit file (str "(use 'bleach.core) #bleach/ed \"" (whiten (slurp file)) "\"")))
